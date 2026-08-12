@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="KRRI 직원 KPI 관리 대시보드">
+  <title>KRRI · People Performance</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="{{ url_for('dashboard') }}">
+      <span class="brand-symbol"><i></i><i></i><i></i></span>
+      <span><b>KRRI</b><small>PEOPLE PERFORMANCE</small></span>
+    </a>
+    <nav>
+      <p>WORKSPACE</p>
+      <a class="active" href="#overview"><span>⌂</span> 통합 대시보드</a>
+      <a href="#employees"><span>♙</span> 직원 KPI</a>
+      <a href="#analytics"><span>⌁</span> 성과 분석</a>
+      <a href="#"><span>▤</span> 평가 보고서</a>
+      <p>MANAGEMENT</p>
+      <a href="#"><span>◎</span> 목표 설정</a>
+      <a href="#"><span>◇</span> 역량 관리</a>
+    </nav>
+    <div class="side-bottom">
+      <div class="secure"><i></i> 내부 업무 시스템 · 정상</div>
+      <div class="user"><span>김</span><div><b>김철도 본부장</b><small>미래교통연구본부</small></div><em>•••</em></div>
+    </div>
+  </aside>
+
+  <main>
+    <header class="topbar">
+      <button class="menu" id="menuBtn">☰</button>
+      <form class="global-search" method="get">
+        <input type="hidden" name="quarter" value="{{ filters.quarter }}">
+        <span>⌕</span><input name="q" value="{{ filters.q }}" placeholder="직원, 사번, 직급 검색"><kbd>Enter</kbd>
+      </form>
+      <div class="top-actions"><span class="today" id="today"></span><button class="bell">♢<i></i></button><button class="primary" data-modal="employeeModal">＋ 직원 등록</button></div>
+    </header>
+
+    <div class="page" id="overview">
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% for category, message in messages %}<div class="flash {{ category }}">{{ message }}<button>×</button></div>{% endfor %}
+      {% endwith %}
+
+      <section class="page-head">
+        <div><p class="eyebrow">PEOPLE PERFORMANCE</p><h1>직원 KPI <em>통합 대시보드</em></h1><p>조직과 개인의 목표를 연결하고 성과 신호를 빠르게 확인하세요.</p></div>
+        <div class="head-actions"><a class="outline" href="{{ url_for('export_csv', quarter=filters.quarter) }}">⇩ CSV 내보내기</a><button class="primary" data-modal="kpiModal">＋ KPI 등록</button></div>
+      </section>
+
+      <section class="briefing">
+        <div><p><span>AI</span> PERFORMANCE BRIEFING</p><h2><strong>{{ summary.attention }}명</strong>의 성과 코칭이 필요합니다.</h2><div>전체 평균은 {{ summary.average }}점이며, KPI 완료율은 {{ summary.completion }}%입니다.<br>주의 직원의 목표 난이도와 지원 자원을 이번 주 안에 점검해 주세요.</div></div>
+        <div class="brief-viz"><div class="circle"><b>{{ summary.average }}</b><small>종합 평균</small></div><i></i><i></i><i></i></div>
+      </section>
+
+      <section class="metrics">
+        <article style="--accent:#1677ff"><div class="metric-icon">♙</div><span class="tag positive">재직 기준</span><p>평가 대상 직원</p><h3>{{ summary.employees }}<small>명</small></h3><div class="metric-foot">5개 본부 · {{ filters.quarter }}</div></article>
+        <article style="--accent:#2bc49b"><div class="metric-icon">◎</div><span class="tag positive">↗ 2.4점</span><p>조직 평균 달성률</p><h3>{{ summary.average }}<small>점</small></h3><div class="progress"><i style="width:{{ [summary.average,100]|min }}%"></i></div></article>
+        <article style="--accent:#f2a323"><div class="metric-icon">★</div><span class="tag">상위 성과</span><p>탁월 성과자</p><h3>{{ summary.excellent }}<small>명</small></h3><div class="metric-foot">100점 이상 달성</div></article>
+        <article style="--accent:#ef5e65"><div class="metric-icon">!</div><span class="tag danger">조치 필요</span><p>코칭 필요 인원</p><h3>{{ summary.attention }}<small>명</small></h3><div class="metric-foot">주의·개선필요 기준</div></article>
+      </section>
+
+      <section class="content-grid" id="analytics">
+        <article class="panel distribution">
+          <div class="panel-head"><div><p>PERFORMANCE</p><h3>성과 등급 분포</h3></div><span>총 {{ summary.employees }}명</span></div>
+          {% set total = summary.employees or 1 %}
+          <div class="donut" style="--a:{{ distribution['탁월']/total*100 }}%;--b:{{ (distribution['탁월']+distribution['양호'])/total*100 }}%;--c:{{ (distribution['탁월']+distribution['양호']+distribution['주의'])/total*100 }}%"><div><b>{{ summary.average }}</b><small>평균 점수</small></div></div>
+          <div class="legend">
+            <div><i class="excellent"></i><span>탁월</span><b>{{ distribution['탁월'] }}명</b></div>
+            <div><i class="good"></i><span>양호</span><b>{{ distribution['양호'] }}명</b></div>
+            <div><i class="watch"></i><span>주의</span><b>{{ distribution['주의'] }}명</b></div>
+            <div><i class="low"></i><span>개선필요</span><b>{{ distribution['개선필요'] }}명</b></div>
+          </div>
+        </article>
+        <article class="panel dept-chart">
+          <div class="panel-head"><div><p>BY DIVISION</p><h3>본부별 평균 달성률</h3></div><span>{{ filters.quarter }}</span></div>
+          <div class="bars">
+            {% for dept in dept_scores %}<div class="bar-row"><label>{{ dept.name }}</label><div><i style="width:{{ [dept.score,100]|min }}%"></i></div><b>{{ dept.score }}</b></div>{% endfor %}
+          </div>
+        </article>
+        <article class="panel coaching">
+          <div class="panel-head"><div><p>COACHING SIGNAL</p><h3>우선 코칭 대상</h3></div><span class="alert">{{ summary.attention }}명</span></div>
+          {% for row in all_rows|sort(attribute='score') %}{% if loop.index <= 3 %}
+          <button class="coach-person" data-employee="{{ row.id }}"><span class="avatar c{{ loop.index }}">{{ row.name[0] }}</span><div><b>{{ row.name }}</b><small>{{ row.department }}</small></div><em>{{ row.score }}점</em></button>
+          {% endif %}{% endfor %}
+        </article>
+      </section>
+
+      <section class="panel employee-panel" id="employees">
+        <div class="panel-head employee-head"><div><p>EMPLOYEE KPI</p><h3>직원별 KPI 현황</h3></div><form class="filters" method="get"><select name="quarter">{% for q in quarters %}<option {{ 'selected' if filters.quarter==q }}>{{ q }}</option>{% endfor %}</select><select name="department"><option>전체</option>{% for dept in departments %}<option {{ 'selected' if filters.department==dept }}>{{ dept }}</option>{% endfor %}</select><select name="status"><option>전체</option>{% for s in ['탁월','양호','주의','개선필요'] %}<option {{ 'selected' if filters.status==s }}>{{ s }}</option>{% endfor %}</select><button>적용</button></form></div>
+        <div class="table-wrap"><table><thead><tr><th>직원</th><th>소속 / 직급</th><th>KPI 완료</th><th>종합 달성률</th><th>평가 상태</th><th></th></tr></thead><tbody>
+          {% for row in rows %}<tr><td><button class="person-cell" data-employee="{{ row.id }}"><span class="avatar c{{ (loop.index % 4)+1 }}">{{ row.name[0] }}</span><div><b>{{ row.name }}</b><small>{{ row.employee_no }}</small></div></button></td><td><b>{{ row.department }}</b><small>{{ row.position }}</small></td><td><b>{{ row.completed }} / {{ row.kpi_count }}</b><small>목표 달성 항목</small></td><td><div class="score-cell"><div><i class="{{ row.status }}" style="width:{{ [row.score,100]|min }}%"></i></div><b>{{ row.score }}%</b></div></td><td><span class="status {{ row.status }}">{{ row.status }}</span></td><td><button class="more" data-employee="{{ row.id }}">•••</button></td></tr>
+          {% else %}<tr><td colspan="6" class="empty">조건에 맞는 직원이 없습니다.</td></tr>{% endfor %}
+        </tbody></table></div>
+        <div class="table-foot"><span>{{ rows|length }}명의 직원 표시</span><span>데이터 기준일 <span id="baseDate"></span></span></div>
+      </section>
+    </div>
+  </main>
+
+  <div class="modal-wrap" id="employeeModal"><div class="modal"><button class="close">×</button><p class="eyebrow">NEW EMPLOYEE</p><h2>직원 등록</h2><form action="{{ url_for('add_employee') }}" method="post"><div class="form-row"><label>사번<input required name="employee_no" placeholder="K26009"></label><label>성명<input required name="name" placeholder="홍길동"></label></div><div class="form-row"><label>소속 부서<select name="department">{% for dept in departments %}<option>{{ dept }}</option>{% endfor %}</select></label><label>직급<input required name="position" placeholder="선임연구원"></label></div><label>이메일<input type="email" name="email" placeholder="name@krri.re.kr"></label><label>입사일<input type="date" name="joined_at"></label><div class="modal-actions"><button type="button" class="outline close-action">취소</button><button class="primary">직원 등록</button></div></form></div></div>
+
+  <div class="modal-wrap" id="kpiModal"><div class="modal"><button class="close">×</button><p class="eyebrow">NEW KPI</p><h2>KPI 항목 등록</h2><form action="{{ url_for('add_kpi') }}" method="post"><label>대상 직원<select required name="employee_id"><option value="">선택하세요</option>{% for row in all_rows %}<option value="{{ row.id }}">{{ row.name }} · {{ row.department }}</option>{% endfor %}</select></label><div class="form-row"><label>평가기간<select name="quarter">{% for q in quarters %}<option {{ 'selected' if filters.quarter==q }}>{{ q }}</option>{% endfor %}</select></label><label>성과 분야<select name="category"><option>연구성과</option><option>논문·특허</option><option>사업화</option><option>조직기여</option><option>역량개발</option></select></label></div><label>KPI 명<input required name="title" placeholder="예: SCI 논문 게재"></label><div class="form-row three"><label>목표<input required type="number" step="0.1" min="0.1" name="target"></label><label>현재 실적<input required type="number" step="0.1" min="0" name="actual" value="0"></label><label>단위<input name="unit" placeholder="건, 점, %"></label></div><label>가중치 (%)<input required type="number" step="1" min="1" max="100" name="weight" value="25"></label><label>메모<textarea name="note" rows="3" placeholder="평가 기준 또는 참고사항"></textarea></label><div class="modal-actions"><button type="button" class="outline close-action">취소</button><button class="primary">KPI 등록</button></div></form></div></div>
+
+  <div class="drawer-backdrop" id="drawerBackdrop"></div><aside class="drawer" id="employeeDrawer"><button class="drawer-close">×</button><div id="drawerContent"><div class="loader"></div></div></aside>
+  <div class="toast" id="toast"></div>
+  <script>window.APP_CONFIG={quarter:{{ filters.quarter|tojson }}};</script>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
