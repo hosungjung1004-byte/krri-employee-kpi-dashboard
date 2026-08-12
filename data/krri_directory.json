@@ -1,0 +1,2476 @@
+{
+  "source": "https://www.krri.re.kr/web/contents/krri030801.do",
+  "retrieved_at": "2026-08-12",
+  "organizations": [
+    {
+      "code": "01",
+      "name": "원장"
+    },
+    {
+      "code": "0201",
+      "name": "감사부"
+    },
+    {
+      "code": "0101",
+      "name": "부원장"
+    },
+    {
+      "code": "01011104",
+      "name": "하이퍼튜브연구단"
+    },
+    {
+      "code": "03",
+      "name": "KRRI 스쿨"
+    },
+    {
+      "code": "010101",
+      "name": "연구전략본부"
+    },
+    {
+      "code": "01010101",
+      "name": "연구전략실"
+    },
+    {
+      "code": "01010102",
+      "name": "연구정책실"
+    },
+    {
+      "code": "01010103",
+      "name": "홍보문화실"
+    },
+    {
+      "code": "010102",
+      "name": "연구실용화본부"
+    },
+    {
+      "code": "01010201",
+      "name": "글로벌사업실"
+    },
+    {
+      "code": "01010202",
+      "name": "성과관리실"
+    },
+    {
+      "code": "01010203",
+      "name": "철도산업지원실"
+    },
+    {
+      "code": "010103",
+      "name": "기획조정본부"
+    },
+    {
+      "code": "01010301",
+      "name": "기획실"
+    },
+    {
+      "code": "01010302",
+      "name": "예산실"
+    },
+    {
+      "code": "01010303",
+      "name": "사업조정실"
+    },
+    {
+      "code": "01010304",
+      "name": "DX정보보안실"
+    },
+    {
+      "code": "010104",
+      "name": "경영행정본부"
+    },
+    {
+      "code": "01010401",
+      "name": "인력개발실"
+    },
+    {
+      "code": "01010402",
+      "name": "총무복지실"
+    },
+    {
+      "code": "01010403",
+      "name": "구매자산실"
+    },
+    {
+      "code": "01010404",
+      "name": "재무관리실"
+    },
+    {
+      "code": "01010405",
+      "name": "안전보건실"
+    },
+    {
+      "code": "010107",
+      "name": "철도교통AX본부"
+    },
+    {
+      "code": "01010702",
+      "name": "철도AI융합연구실"
+    },
+    {
+      "code": "01010701",
+      "name": "철도피지컬AI연구실"
+    },
+    {
+      "code": "010108",
+      "name": "교통물류본부"
+    },
+    {
+      "code": "01010801",
+      "name": "철도모빌리티정책연구실"
+    },
+    {
+      "code": "01010802",
+      "name": "철도운영연구실"
+    },
+    {
+      "code": "01010803",
+      "name": "첨단물류시스템연구실"
+    },
+    {
+      "code": "010109",
+      "name": "철도차량본부"
+    },
+    {
+      "code": "01010901",
+      "name": "고속철도연구실"
+    },
+    {
+      "code": "01010902",
+      "name": "도시철도연구실"
+    },
+    {
+      "code": "01010903",
+      "name": "트램연구실"
+    },
+    {
+      "code": "01010904",
+      "name": "ICT 대중교통연구실"
+    },
+    {
+      "code": "010110",
+      "name": "궤도토목본부"
+    },
+    {
+      "code": "01011001",
+      "name": "궤도노반연구실"
+    },
+    {
+      "code": "01011002",
+      "name": "철도구조연구실"
+    },
+    {
+      "code": "01011003",
+      "name": "첨단인프라융합연구실"
+    },
+    {
+      "code": "010111",
+      "name": "전기신호본부"
+    },
+    {
+      "code": "01011101",
+      "name": "전철전력연구실"
+    },
+    {
+      "code": "01011102",
+      "name": "추진시스템연구실"
+    },
+    {
+      "code": "01011103",
+      "name": "열차제어통신연구실"
+    },
+    {
+      "code": "010105",
+      "name": "철도시험인증본부"
+    },
+    {
+      "code": "01010501",
+      "name": "공인시험인증실"
+    },
+    {
+      "code": "01010502",
+      "name": "공인검사실"
+    },
+    {
+      "code": "01010503",
+      "name": "기술기준ㆍ표준연구실"
+    },
+    {
+      "code": "01010504",
+      "name": "오송시험선운영실"
+    },
+    {
+      "code": "010106",
+      "name": "철도안전환경본부"
+    },
+    {
+      "code": "01010601",
+      "name": "시스템안전연구실"
+    },
+    {
+      "code": "01010602",
+      "name": "철도중대사고연구실"
+    },
+    {
+      "code": "01010603",
+      "name": "교통환경연구실"
+    }
+  ],
+  "members": [
+    {
+      "division": "감사부",
+      "department": "감사부",
+      "name": "강용묵",
+      "position": "감사부장"
+    },
+    {
+      "division": "감사부",
+      "department": "감사부",
+      "name": "김선우",
+      "position": "부원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "경영행정본부",
+      "name": "안수근",
+      "position": "본부장"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "구매자산실",
+      "name": "고상진",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "구매자산실",
+      "name": "박주영",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "구매자산실",
+      "name": "이광은",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "구매자산실",
+      "name": "이슬비",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "구매자산실",
+      "name": "이유정",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "구매자산실",
+      "name": "최영준",
+      "position": "실장"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "안전보건실",
+      "name": "강혁재",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "안전보건실",
+      "name": "김하윤",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "안전보건실",
+      "name": "박준형",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "안전보건실",
+      "name": "박혜림",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "안전보건실",
+      "name": "신민승",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "안전보건실",
+      "name": "이동규",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "안전보건실",
+      "name": "전한준",
+      "position": "실장"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "안전보건실",
+      "name": "천민철",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "인력개발실",
+      "name": "심정화",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "인력개발실",
+      "name": "이강원",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "인력개발실",
+      "name": "이경수",
+      "position": "실장"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "인력개발실",
+      "name": "이은옥",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "인력개발실",
+      "name": "임현성",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "인력개발실",
+      "name": "조현제",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "인력개발실",
+      "name": "현동길",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "재무관리실",
+      "name": "송준용",
+      "position": "부원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "재무관리실",
+      "name": "여주홍",
+      "position": "실장"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "재무관리실",
+      "name": "이하은",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "재무관리실",
+      "name": "장용현",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "총무복지실",
+      "name": "양창석",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "총무복지실",
+      "name": "이주한",
+      "position": "실장"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "총무복지실",
+      "name": "전익수",
+      "position": "실원"
+    },
+    {
+      "division": "경영행정본부",
+      "department": "총무복지실",
+      "name": "지은정",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "교통물류본부",
+      "name": "이준",
+      "position": "본부장"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도모빌리티정책연구실",
+      "name": "고상필",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도모빌리티정책연구실",
+      "name": "김현웅",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도모빌리티정책연구실",
+      "name": "민진홍",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도모빌리티정책연구실",
+      "name": "송지영",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도모빌리티정책연구실",
+      "name": "안성희",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도모빌리티정책연구실",
+      "name": "엄진기",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도모빌리티정책연구실",
+      "name": "오동규",
+      "position": "실장"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도모빌리티정책연구실",
+      "name": "이경철",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도모빌리티정책연구실",
+      "name": "이광섭",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도모빌리티정책연구실",
+      "name": "이성훈",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도운영연구실",
+      "name": "강성민",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도운영연구실",
+      "name": "강성욱",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도운영연구실",
+      "name": "김경태",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도운영연구실",
+      "name": "김동희",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도운영연구실",
+      "name": "노학래",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도운영연구실",
+      "name": "오석문",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도운영연구실",
+      "name": "유용훈",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도운영연구실",
+      "name": "윤장호",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도운영연구실",
+      "name": "이인묵",
+      "position": "실장"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "철도운영연구실",
+      "name": "정은비",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "첨단물류시스템연구실",
+      "name": "곽민호",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "첨단물류시스템연구실",
+      "name": "김도현",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "첨단물류시스템연구실",
+      "name": "김영주",
+      "position": "실장"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "첨단물류시스템연구실",
+      "name": "김영훈",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "첨단물류시스템연구실",
+      "name": "김주욱",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "첨단물류시스템연구실",
+      "name": "박재현",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "첨단물류시스템연구실",
+      "name": "박정준",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "첨단물류시스템연구실",
+      "name": "이석",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "첨단물류시스템연구실",
+      "name": "이영호",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "첨단물류시스템연구실",
+      "name": "정승우",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "첨단물류시스템연구실",
+      "name": "채우리",
+      "position": "실원"
+    },
+    {
+      "division": "교통물류본부",
+      "department": "첨단물류시스템연구실",
+      "name": "황재민",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "궤도노반연구실",
+      "name": "고태훈",
+      "position": "실장"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "궤도노반연구실",
+      "name": "김대상",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "궤도노반연구실",
+      "name": "김만철",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "궤도노반연구실",
+      "name": "김은",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "궤도노반연구실",
+      "name": "배영훈",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "궤도노반연구실",
+      "name": "이성혁",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "궤도노반연구실",
+      "name": "정호연",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "궤도노반연구실",
+      "name": "지구철",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "궤도노반연구실",
+      "name": "최찬용",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "궤도노반연구실",
+      "name": "황성호",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "궤도토목본부",
+      "name": "최일윤",
+      "position": "본부장"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "철도구조연구실",
+      "name": "강윤석",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "철도구조연구실",
+      "name": "김경민",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "철도구조연구실",
+      "name": "김기현",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "철도구조연구실",
+      "name": "김성일",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "철도구조연구실",
+      "name": "김이현",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "철도구조연구실",
+      "name": "김지현",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "철도구조연구실",
+      "name": "김태훈",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "철도구조연구실",
+      "name": "김현민",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "철도구조연구실",
+      "name": "방춘석",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "철도구조연구실",
+      "name": "신정열",
+      "position": "실장"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "철도구조연구실",
+      "name": "여인호",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "철도구조연구실",
+      "name": "이안호",
+      "position": "보좌역"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "철도구조연구실",
+      "name": "이준석",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "철도구조연구실",
+      "name": "이희업",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "철도구조연구실",
+      "name": "정승후",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "첨단인프라융합연구실",
+      "name": "김병규",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "첨단인프라융합연구실",
+      "name": "김지환",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "첨단인프라융합연구실",
+      "name": "박영곤",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "첨단인프라융합연구실",
+      "name": "안준범",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "첨단인프라융합연구실",
+      "name": "엄기영",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "첨단인프라융합연구실",
+      "name": "윤희택",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "첨단인프라융합연구실",
+      "name": "이나현",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "첨단인프라융합연구실",
+      "name": "이성진",
+      "position": "실장"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "첨단인프라융합연구실",
+      "name": "이일화",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "첨단인프라융합연구실",
+      "name": "이진욱",
+      "position": "실원"
+    },
+    {
+      "division": "궤도토목본부",
+      "department": "첨단인프라융합연구실",
+      "name": "최영태",
+      "position": "실원"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "DX정보보안실",
+      "name": "강석주",
+      "position": "실장"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "DX정보보안실",
+      "name": "구은모",
+      "position": "실원"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "DX정보보안실",
+      "name": "남은경",
+      "position": "실원"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "DX정보보안실",
+      "name": "문진한",
+      "position": "실원"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "DX정보보안실",
+      "name": "오석호",
+      "position": "실원"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "DX정보보안실",
+      "name": "주상욱",
+      "position": "실원"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "DX정보보안실",
+      "name": "황희라",
+      "position": "실원"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "기획실",
+      "name": "김정희",
+      "position": "실원"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "기획실",
+      "name": "유경진",
+      "position": "실원"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "기획실",
+      "name": "정종기",
+      "position": "실장"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "기획실",
+      "name": "조세희",
+      "position": "실원"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "기획조정본부",
+      "name": "정대영",
+      "position": "본부장"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "사업조정실",
+      "name": "박대식",
+      "position": "실원"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "사업조정실",
+      "name": "박선영",
+      "position": "실원"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "사업조정실",
+      "name": "우승규",
+      "position": "실원"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "사업조정실",
+      "name": "이윤주",
+      "position": "실원"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "사업조정실",
+      "name": "진재선",
+      "position": "실장"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "사업조정실",
+      "name": "최원준",
+      "position": "실원"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "예산실",
+      "name": "박호영",
+      "position": "실원"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "예산실",
+      "name": "장준구",
+      "position": "실장"
+    },
+    {
+      "division": "기획조정본부",
+      "department": "예산실",
+      "name": "황성업",
+      "position": "실원"
+    },
+    {
+      "division": "부원장",
+      "department": "부원장",
+      "name": "권용장",
+      "position": "부원장"
+    },
+    {
+      "division": "연구실용화본부",
+      "department": "글로벌사업실",
+      "name": "김광수",
+      "position": "실원"
+    },
+    {
+      "division": "연구실용화본부",
+      "department": "글로벌사업실",
+      "name": "김순희",
+      "position": "실장"
+    },
+    {
+      "division": "연구실용화본부",
+      "department": "글로벌사업실",
+      "name": "안성권",
+      "position": "실원"
+    },
+    {
+      "division": "연구실용화본부",
+      "department": "글로벌사업실",
+      "name": "오지택",
+      "position": "실원"
+    },
+    {
+      "division": "연구실용화본부",
+      "department": "글로벌사업실",
+      "name": "이동헌",
+      "position": "실원"
+    },
+    {
+      "division": "연구실용화본부",
+      "department": "글로벌사업실",
+      "name": "홍선호",
+      "position": "실원"
+    },
+    {
+      "division": "연구실용화본부",
+      "department": "성과관리실",
+      "name": "이강호",
+      "position": "실원"
+    },
+    {
+      "division": "연구실용화본부",
+      "department": "성과관리실",
+      "name": "이호규",
+      "position": "실장"
+    },
+    {
+      "division": "연구실용화본부",
+      "department": "성과관리실",
+      "name": "이호성",
+      "position": "실원"
+    },
+    {
+      "division": "연구실용화본부",
+      "department": "성과관리실",
+      "name": "임현빈",
+      "position": "실원"
+    },
+    {
+      "division": "연구실용화본부",
+      "department": "연구실용화본부",
+      "name": "김태욱",
+      "position": "실장"
+    },
+    {
+      "division": "연구실용화본부",
+      "department": "철도산업지원실",
+      "name": "김의진",
+      "position": "실원"
+    },
+    {
+      "division": "연구실용화본부",
+      "department": "철도산업지원실",
+      "name": "박준성",
+      "position": "실장"
+    },
+    {
+      "division": "연구실용화본부",
+      "department": "철도산업지원실",
+      "name": "장동두",
+      "position": "실원"
+    },
+    {
+      "division": "연구실용화본부",
+      "department": "철도산업지원실",
+      "name": "조봉관",
+      "position": "실원"
+    },
+    {
+      "division": "연구실용화본부",
+      "department": "철도산업지원실",
+      "name": "조영민",
+      "position": "실원"
+    },
+    {
+      "division": "연구전략본부",
+      "department": "연구전략본부",
+      "name": "박준혁",
+      "position": "본부장"
+    },
+    {
+      "division": "연구전략본부",
+      "department": "연구전략실",
+      "name": "권오준",
+      "position": "실원"
+    },
+    {
+      "division": "연구전략본부",
+      "department": "연구전략실",
+      "name": "박진혁",
+      "position": "실원"
+    },
+    {
+      "division": "연구전략본부",
+      "department": "연구전략실",
+      "name": "유소영",
+      "position": "실장"
+    },
+    {
+      "division": "연구전략본부",
+      "department": "연구전략실",
+      "name": "이순교",
+      "position": "실원"
+    },
+    {
+      "division": "연구전략본부",
+      "department": "연구전략실",
+      "name": "정명기",
+      "position": "실원"
+    },
+    {
+      "division": "연구전략본부",
+      "department": "연구전략실",
+      "name": "정재은",
+      "position": "실원"
+    },
+    {
+      "division": "연구전략본부",
+      "department": "연구전략실",
+      "name": "황선우",
+      "position": "실원"
+    },
+    {
+      "division": "연구전략본부",
+      "department": "연구정책실",
+      "name": "권성호",
+      "position": "실원"
+    },
+    {
+      "division": "연구전략본부",
+      "department": "연구정책실",
+      "name": "문국현",
+      "position": "실장"
+    },
+    {
+      "division": "연구전략본부",
+      "department": "연구정책실",
+      "name": "장성순",
+      "position": "실원"
+    },
+    {
+      "division": "연구전략본부",
+      "department": "홍보문화실",
+      "name": "김진호",
+      "position": "실원"
+    },
+    {
+      "division": "연구전략본부",
+      "department": "홍보문화실",
+      "name": "노주현",
+      "position": "실원"
+    },
+    {
+      "division": "연구전략본부",
+      "department": "홍보문화실",
+      "name": "백승현",
+      "position": "실장"
+    },
+    {
+      "division": "연구전략본부",
+      "department": "홍보문화실",
+      "name": "신소정",
+      "position": "실원"
+    },
+    {
+      "division": "원장",
+      "department": "원장실",
+      "name": "사공명",
+      "position": "원장"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "열차제어통신연구실",
+      "name": "김광석",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "열차제어통신연구실",
+      "name": "김성진",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "열차제어통신연구실",
+      "name": "김영주",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "열차제어통신연구실",
+      "name": "김정태",
+      "position": "실장"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "열차제어통신연구실",
+      "name": "남지연",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "열차제어통신연구실",
+      "name": "마정민",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "열차제어통신연구실",
+      "name": "변윤섭",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "열차제어통신연구실",
+      "name": "변일무",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "열차제어통신연구실",
+      "name": "송용수",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "열차제어통신연구실",
+      "name": "오세찬",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "열차제어통신연구실",
+      "name": "윤용기",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "열차제어통신연구실",
+      "name": "이동진",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "열차제어통신연구실",
+      "name": "이병훈",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "열차제어통신연구실",
+      "name": "이재호",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "열차제어통신연구실",
+      "name": "전혜연",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "열차제어통신연구실",
+      "name": "정락교",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "열차제어통신연구실",
+      "name": "최현영",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "열차제어통신연구실",
+      "name": "하대한",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "열차제어통신연구실",
+      "name": "한문섭",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "전기신호본부",
+      "name": "정호성",
+      "position": "본부장"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "전철전력연구실",
+      "name": "강성우",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "전철전력연구실",
+      "name": "김용석",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "전철전력연구실",
+      "name": "김재원",
+      "position": "실장"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "전철전력연구실",
+      "name": "김주락",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "전철전력연구실",
+      "name": "김형철",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "전철전력연구실",
+      "name": "박종영",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "전철전력연구실",
+      "name": "박철민",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "전철전력연구실",
+      "name": "송민섭",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "전철전력연구실",
+      "name": "신승권",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "전철전력연구실",
+      "name": "이기원",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "전철전력연구실",
+      "name": "이장무",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "전철전력연구실",
+      "name": "이한민",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "전철전력연구실",
+      "name": "조용현",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "전철전력연구실",
+      "name": "조환희",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "전철전력연구실",
+      "name": "최동호",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "추진시스템연구실",
+      "name": "김길동",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "추진시스템연구실",
+      "name": "김명룡",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "추진시스템연구실",
+      "name": "김보경",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "추진시스템연구실",
+      "name": "김지연",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "추진시스템연구실",
+      "name": "류준형",
+      "position": "실장"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "추진시스템연구실",
+      "name": "박수미",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "추진시스템연구실",
+      "name": "오예준",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "추진시스템연구실",
+      "name": "오용국",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "추진시스템연구실",
+      "name": "이건복",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "추진시스템연구실",
+      "name": "이경표",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "추진시스템연구실",
+      "name": "이수길",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "추진시스템연구실",
+      "name": "이주현",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "추진시스템연구실",
+      "name": "이준희",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "추진시스템연구실",
+      "name": "정신명",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "추진시스템연구실",
+      "name": "채은경",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "추진시스템연구실",
+      "name": "한인수",
+      "position": "실원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "하이퍼튜브연구단",
+      "name": "고태환",
+      "position": "단원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "하이퍼튜브연구단",
+      "name": "김동현",
+      "position": "단원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "하이퍼튜브연구단",
+      "name": "문정민",
+      "position": "단원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "하이퍼튜브연구단",
+      "name": "민재홍",
+      "position": "단장"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "하이퍼튜브연구단",
+      "name": "옥민환",
+      "position": "단원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "하이퍼튜브연구단",
+      "name": "이진호",
+      "position": "단원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "하이퍼튜브연구단",
+      "name": "이창영",
+      "position": "단원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "하이퍼튜브연구단",
+      "name": "조민기",
+      "position": "단원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "하이퍼튜브연구단",
+      "name": "조정민",
+      "position": "단원"
+    },
+    {
+      "division": "전기신호본부",
+      "department": "하이퍼튜브연구단",
+      "name": "최수용",
+      "position": "단원"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도AI융합연구실",
+      "name": "김동현",
+      "position": "실원"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도AI융합연구실",
+      "name": "박정준",
+      "position": "실원"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도AI융합연구실",
+      "name": "손승오",
+      "position": "실원"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도AI융합연구실",
+      "name": "송준호",
+      "position": "실원"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도AI융합연구실",
+      "name": "유승민",
+      "position": "실장"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도AI융합연구실",
+      "name": "이상근",
+      "position": "실원"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도AI융합연구실",
+      "name": "이창길",
+      "position": "실원"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도AI융합연구실",
+      "name": "이효범",
+      "position": "실원"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도AI융합연구실",
+      "name": "정종원",
+      "position": "실원"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도AI융합연구실",
+      "name": "조영곤",
+      "position": "실원"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도AI융합연구실",
+      "name": "하정목",
+      "position": "실원"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도교통AX본부",
+      "name": "김현기",
+      "position": "본부장"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도피지컬AI연구실",
+      "name": "김동규",
+      "position": "실원"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도피지컬AI연구실",
+      "name": "김백현",
+      "position": "실원"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도피지컬AI연구실",
+      "name": "변성준",
+      "position": "실원"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도피지컬AI연구실",
+      "name": "원종운",
+      "position": "실원"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도피지컬AI연구실",
+      "name": "이상덕",
+      "position": "실장"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도피지컬AI연구실",
+      "name": "이현석",
+      "position": "실원"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도피지컬AI연구실",
+      "name": "이후상",
+      "position": "실원"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도피지컬AI연구실",
+      "name": "최종혁",
+      "position": "실원"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도피지컬AI연구실",
+      "name": "한준희",
+      "position": "실원"
+    },
+    {
+      "division": "철도교통AX본부",
+      "department": "철도피지컬AI연구실",
+      "name": "황현철",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "김영모",
+      "position": "실장"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "김인용",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "문형욱",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "박기준",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "박병준",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "박찬경",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "박해승",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "박휘돈",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "배창한",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "오왕석",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "이동형",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "이영훈",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "이해영",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "장용준",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "장익준",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "정의진",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "한성호",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "한영재",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "홍재성",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인검사실",
+      "name": "황종규",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "김민경",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "김보영",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "김인겸",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "김희석",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "노주현",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "박성혁",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "박지원",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "배준현",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "송영연",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "신경호",
+      "position": "실장"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "안성재",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "엄주환",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "유주예",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "이상화",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "이현민",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "장동욱",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "정승범",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "정주영",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "조상구",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "채성윤",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "공인시험인증실",
+      "name": "허웅",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "기술기준·표준연구실",
+      "name": "김연수",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "기술기준·표준연구실",
+      "name": "김태우",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "기술기준·표준연구실",
+      "name": "목재균",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "기술기준·표준연구실",
+      "name": "양지현",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "기술기준·표준연구실",
+      "name": "이강미",
+      "position": "실장"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "기술기준·표준연구실",
+      "name": "이강원",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "기술기준·표준연구실",
+      "name": "이지하",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "기술기준·표준연구실",
+      "name": "전홍규",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "기술기준·표준연구실",
+      "name": "조소현",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "오송시험선운영실",
+      "name": "김남기",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "오송시험선운영실",
+      "name": "김민석",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "오송시험선운영실",
+      "name": "나성훈",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "오송시험선운영실",
+      "name": "문대철",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "오송시험선운영실",
+      "name": "백민철",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "오송시험선운영실",
+      "name": "서강석",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "오송시험선운영실",
+      "name": "석근수",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "오송시험선운영실",
+      "name": "양다영",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "오송시험선운영실",
+      "name": "이계승",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "오송시험선운영실",
+      "name": "이성민",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "오송시험선운영실",
+      "name": "이택기",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "오송시험선운영실",
+      "name": "이한솔",
+      "position": "실원"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "오송시험선운영실",
+      "name": "최용석",
+      "position": "실장"
+    },
+    {
+      "division": "철도시험인증본부",
+      "department": "철도시험인증본부",
+      "name": "최진유",
+      "position": "본부장"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "교통환경연구실",
+      "name": "고상원",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "교통환경연구실",
+      "name": "고효인",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "교통환경연구실",
+      "name": "김경훈",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "교통환경연구실",
+      "name": "김민정",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "교통환경연구실",
+      "name": "노희민",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "교통환경연구실",
+      "name": "박덕신",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "교통환경연구실",
+      "name": "이재영",
+      "position": "실장"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "교통환경연구실",
+      "name": "이철규",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "교통환경연구실",
+      "name": "이현욱",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "교통환경연구실",
+      "name": "장승호",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "교통환경연구실",
+      "name": "정우태",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "교통환경연구실",
+      "name": "홍지영",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "시스템안전연구실",
+      "name": "강성근",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "시스템안전연구실",
+      "name": "김경희",
+      "position": "실장"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "시스템안전연구실",
+      "name": "김상암",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "시스템안전연구실",
+      "name": "김진호",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "시스템안전연구실",
+      "name": "류상환",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "시스템안전연구실",
+      "name": "문형석",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "시스템안전연구실",
+      "name": "박찬우",
+      "position": "실장"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "시스템안전연구실",
+      "name": "윤성호",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "시스템안전연구실",
+      "name": "장태연",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "시스템안전연구실",
+      "name": "조현정",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "철도안전환경본부",
+      "name": "전현규",
+      "position": "본부장"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "철도안전환경본부",
+      "name": "권태수",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "철도중대사고연구실",
+      "name": "강동훈",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "철도중대사고연구실",
+      "name": "권태순",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "철도중대사고연구실",
+      "name": "김진성",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "철도중대사고연구실",
+      "name": "박원희",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "철도중대사고연구실",
+      "name": "안승호",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "철도중대사고연구실",
+      "name": "윤수환",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "철도중대사고연구실",
+      "name": "이덕희",
+      "position": "실장"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "철도중대사고연구실",
+      "name": "정현승",
+      "position": "실원"
+    },
+    {
+      "division": "철도안전환경본부",
+      "department": "철도중대사고연구실",
+      "name": "함영삼",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "ICT 대중교통연구실",
+      "name": "김대현",
+      "position": "실장"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "ICT 대중교통연구실",
+      "name": "김정석",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "ICT 대중교통연구실",
+      "name": "박찬호",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "ICT 대중교통연구실",
+      "name": "안태기",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "ICT 대중교통연구실",
+      "name": "윤혁진",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "고속철도연구실",
+      "name": "김상수",
+      "position": "실장"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "고속철도연구실",
+      "name": "김석원",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "고속철도연구실",
+      "name": "김성휘",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "고속철도연구실",
+      "name": "박춘수",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "고속철도연구실",
+      "name": "백승구",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "고속철도연구실",
+      "name": "신유정",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "고속철도연구실",
+      "name": "신지환",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "고속철도연구실",
+      "name": "오혁근",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "고속철도연구실",
+      "name": "이태형",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "고속철도연구실",
+      "name": "전창성",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "고속철도연구실",
+      "name": "최경준",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "도시철도연구실",
+      "name": "권석진",
+      "position": "실장"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "도시철도연구실",
+      "name": "김무선",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "도시철도연구실",
+      "name": "김민수",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "도시철도연구실",
+      "name": "김재훈",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "도시철도연구실",
+      "name": "김정국",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "도시철도연구실",
+      "name": "남성원",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "도시철도연구실",
+      "name": "문경호",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "도시철도연구실",
+      "name": "서승일",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "도시철도연구실",
+      "name": "서정원",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "도시철도연구실",
+      "name": "온정근",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "도시철도연구실",
+      "name": "이호용",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "도시철도연구실",
+      "name": "정시헌",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "도시철도연구실",
+      "name": "정종덕",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "도시철도연구실",
+      "name": "조홍식",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "도시철도연구실",
+      "name": "최돈범",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "도시철도연구실",
+      "name": "허현무",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "도시철도연구실",
+      "name": "홍성광",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "철도차량본부",
+      "name": "최성훈",
+      "position": "본부장"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "철도차량본부",
+      "name": "안병선",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "트램연구실",
+      "name": "곽재호",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "트램연구실",
+      "name": "박성원",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "트램연구실",
+      "name": "이상엽",
+      "position": "실원"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "트램연구실",
+      "name": "이수형",
+      "position": "실장"
+    },
+    {
+      "division": "철도차량본부",
+      "department": "트램연구실",
+      "name": "전희균",
+      "position": "실원"
+    }
+  ]
+}

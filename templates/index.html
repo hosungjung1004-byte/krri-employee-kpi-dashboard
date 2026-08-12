@@ -17,6 +17,7 @@
       <p>WORKSPACE</p>
       <a class="active" href="#overview"><span>⌂</span> 통합 대시보드</a>
       <a href="#employees"><span>♙</span> 직원 KPI</a>
+      <a href="{{ url_for('public_directory') }}"><span>▦</span> 조직·구성원</a>
       <a href="#analytics"><span>⌁</span> 성과 분석</a>
       <a href="#"><span>▤</span> 평가 보고서</a>
       <p>MANAGEMENT</p>
@@ -55,7 +56,7 @@
       </section>
 
       <section class="metrics">
-        <article style="--accent:#1677ff"><div class="metric-icon">♙</div><span class="tag positive">재직 기준</span><p>평가 대상 직원</p><h3>{{ summary.employees }}<small>명</small></h3><div class="metric-foot">5개 본부 · {{ filters.quarter }}</div></article>
+        <article style="--accent:#1677ff"><div class="metric-icon">♙</div><span class="tag positive">가상 데이터</span><p>평가 대상 직원</p><h3>{{ summary.employees }}<small>명</small></h3><div class="metric-foot">공식 11개 본부 체계 · {{ filters.quarter }}</div></article>
         <article style="--accent:#2bc49b"><div class="metric-icon">◎</div><span class="tag positive">↗ 2.4점</span><p>조직 평균 달성률</p><h3>{{ summary.average }}<small>점</small></h3><div class="progress"><i style="width:{{ [summary.average,100]|min }}%"></i></div></article>
         <article style="--accent:#f2a323"><div class="metric-icon">★</div><span class="tag">상위 성과</span><p>탁월 성과자</p><h3>{{ summary.excellent }}<small>명</small></h3><div class="metric-foot">100점 이상 달성</div></article>
         <article style="--accent:#ef5e65"><div class="metric-icon">!</div><span class="tag danger">조치 필요</span><p>코칭 필요 인원</p><h3>{{ summary.attention }}<small>명</small></h3><div class="metric-foot">주의·개선필요 기준</div></article>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="한국철도기술연구원 공개 조직·구성원 디렉터리">
+  <title>KRRI · 조직·구성원</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="{{ url_for('dashboard') }}"><span class="brand-symbol"><i></i><i></i><i></i></span><span><b>KRRI</b><small>PEOPLE PERFORMANCE</small></span></a>
+    <nav>
+      <p>WORKSPACE</p>
+      <a href="{{ url_for('dashboard') }}"><span>⌂</span> 통합 대시보드</a>
+      <a href="{{ url_for('dashboard') }}#employees"><span>♙</span> 직원 KPI</a>
+      <a class="active" href="{{ url_for('public_directory') }}"><span>▦</span> 조직·구성원</a>
+      <p>DATA POLICY</p>
+      <div class="nav-note">공식 홈페이지 공개정보<br>평가 데이터와 완전 분리</div>
+    </nav>
+    <div class="side-bottom"><div class="secure"><i></i> 공개정보 기준 · {{ retrieved_at }}</div><div class="user"><span>정</span><div><b>정*성 본부장</b><small>전기신호본부</small></div><em>•••</em></div></div>
+  </aside>
+  <main>
+    <header class="topbar"><button class="menu" id="menuBtn">☰</button><form class="global-search" method="get"><span>⌕</span><input name="q" value="{{ filters.q }}" placeholder="이름, 부서, 직위 검색"><kbd>Enter</kbd></form><div class="top-actions"><a class="outline" href="{{ source }}" target="_blank" rel="noopener">공식 조직도 ↗</a></div></header>
+    <div class="page directory-page">
+      <section class="page-head"><div><p class="eyebrow">PUBLIC DIRECTORY</p><h1>KRRI <em>조직·구성원</em></h1><p>공식 홈페이지에 공개된 소속·성명·직위만 제공합니다. KPI 평가 데이터와 연결되지 않습니다.</p></div></section>
+      <section class="directory-summary">
+        <article><span>ORGANIZATION</span><b>11<small>본부</small></b><p>39실(부·단) 공식 조직체계</p></article>
+        <article><span>PUBLIC MEMBERS</span><b>{{ members|length }}<small>명</small></b><p>현재 검색 조건의 공개 구성원</p></article>
+        <article><span>REFERENCE DATE</span><b class="date-value">{{ retrieved_at }}</b><p>KRRI 홈페이지 확인 기준</p></article>
+      </section>
+      <section class="panel org-panel">
+        <div class="panel-head"><div><p>OFFICIAL ORGANIZATION</p><h3>본부·부서 체계</h3></div></div>
+        <div class="org-chips">{% for org in organizations %}<span>{{ org.name }}</span>{% endfor %}</div>
+      </section>
+      <section class="panel directory-panel">
+        <div class="panel-head directory-head"><div><p>MEMBER DIRECTORY</p><h3>공개 구성원 명단</h3></div><form class="filters" method="get"><input name="q" value="{{ filters.q }}" placeholder="이름·부서 검색"><select name="division"><option>전체</option>{% for item in divisions %}<option {{ 'selected' if filters.division==item }}>{{ item }}</option>{% endfor %}</select><button>검색</button></form></div>
+        <div class="directory-grid">
+          {% for member in members %}<article class="member-card"><span class="avatar c{{ (loop.index % 4)+1 }}">{{ member.name[0] }}</span><div><b>{{ member.name }}</b><p>{{ member.department }}</p><small>{{ member.division }} · {{ member.position }}</small></div></article>{% else %}<div class="empty">조건에 맞는 구성원이 없습니다.</div>{% endfor %}
+        </div>
+      </section>
+      <p class="source-note">출처: <a href="{{ source }}" target="_blank" rel="noopener">한국철도기술연구원 공식 조직도</a> · 전화번호와 이메일은 수집하지 않았습니다.</p>
+    </div>
+  </main>
+  <script>document.getElementById('menuBtn').addEventListener('click',()=>document.getElementById('sidebar').classList.toggle('open'));</script>
+</body>
+</html>

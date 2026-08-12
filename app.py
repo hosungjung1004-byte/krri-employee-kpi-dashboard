@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import csv
 import io
+import json
 import os
 import secrets
 import sqlite3
@@ -19,11 +20,16 @@ from flask import Flask, Response, flash, jsonify, redirect, render_template, re
 BASE_DIR = Path(__file__).resolve().parent
 IS_VERCEL = bool(os.environ.get("VERCEL"))
 DB_PATH = Path(tempfile.gettempdir()) / "kpi.db" if IS_VERCEL else BASE_DIR / "kpi.db"
+DIRECTORY_FILE = BASE_DIR / "data" / "krri_directory.json"
 
 app = Flask(__name__, static_folder="public", static_url_path="")
 app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY", secrets.token_hex(32))
 
-DEPARTMENTS = ["미래교통연구본부", "철도안전연구본부", "전기신호본부", "교통환경연구본부", "경영지원본부"]
+DEPARTMENTS = [
+    "연구전략본부", "연구실용화본부", "기획조정본부", "경영행정본부",
+    "철도교통AX본부", "교통물류본부", "철도차량본부", "궤도토목본부",
+    "전기신호본부", "철도시험인증본부", "철도안전환경본부",
+]
 QUARTERS = ["2026 Q1", "2026 Q2", "2026 Q3", "2026 Q4"]
 
 
@@ -66,14 +72,14 @@ def init_db() -> None:
         )
         if conn.execute("SELECT COUNT(*) FROM employees").fetchone()[0] == 0:
             employees = [
-                ("K26001", "이정우", "미래교통연구본부", "책임연구원", "jwlee@krri.re.kr", "2015-03-02"),
-                ("K26002", "박서연", "전기신호본부", "선임연구원", "sypark@krri.re.kr", "2018-07-16"),
-                ("K26003", "최민석", "미래교통연구본부", "수석연구원", "mschoi@krri.re.kr", "2012-01-09"),
-                ("K26004", "한지훈", "교통환경연구본부", "선임연구원", "jhhan@krri.re.kr", "2019-05-20"),
-                ("K26005", "윤하늘", "전기신호본부", "책임연구원", "hnyoon@krri.re.kr", "2016-09-01"),
-                ("K26006", "김태윤", "철도안전연구본부", "책임연구원", "tykim@krri.re.kr", "2014-02-17"),
-                ("K26007", "서은지", "교통환경연구본부", "연구원", "ejseo@krri.re.kr", "2022-11-07"),
-                ("K26008", "오세진", "경영지원본부", "선임행정원", "sjo@krri.re.kr", "2017-04-03"),
+                ("DEMO01", "가상직원 01", "연구전략본부", "연구원", "", ""),
+                ("DEMO02", "가상직원 02", "연구실용화본부", "연구원", "", ""),
+                ("DEMO03", "가상직원 03", "기획조정본부", "행정원", "", ""),
+                ("DEMO04", "가상직원 04", "경영행정본부", "행정원", "", ""),
+                ("DEMO05", "가상직원 05", "철도교통AX본부", "연구원", "", ""),
+                ("DEMO06", "가상직원 06", "교통물류본부", "연구원", "", ""),
+                ("DEMO07", "가상직원 07", "전기신호본부", "연구원", "", ""),
+                ("DEMO08", "가상직원 08", "철도안전환경본부", "연구원", "", ""),
             ]
             conn.executemany("INSERT INTO employees(employee_no,name,department,position,email,joined_at) VALUES(?,?,?,?,?,?)", employees)
             ids = [row[0] for row in conn.execute("SELECT id FROM employees ORDER BY id")]
@@ -121,6 +127,12 @@ def get_dashboard_rows(quarter: str) -> list[dict]:
         return result
 
 
+def load_public_directory() -> dict:
+    if not DIRECTORY_FILE.exists():
+        return {"source": "", "retrieved_at": "", "organizations": [], "members": []}
+    return json.loads(DIRECTORY_FILE.read_text(encoding="utf-8"))
+
+
 @app.route("/")
 def dashboard():
     quarter = request.args.get("quarter", "2026 Q3")
@@ -150,6 +162,24 @@ def dashboard():
         if values:
             dept_scores.append({"name": dept.replace("연구본부", "").replace("본부", ""), "score": round(sum(values) / len(values), 1)})
     return render_template("index.html", rows=rows, all_rows=all_rows, summary=summary, distribution=distribution, dept_scores=dept_scores, departments=DEPARTMENTS, quarters=QUARTERS, filters={"quarter": quarter, "department": department, "status": status, "q": request.args.get("q", "")})
+
+
+@app.get("/directory")
+def public_directory():
+    data = load_public_directory()
+    query = request.args.get("q", "").strip().lower()
+    division = request.args.get("division", "전체")
+    members = data["members"]
+    if division != "전체":
+        members = [item for item in members if item["division"] == division]
+    if query:
+        members = [item for item in members if query in f"{item['name']} {item['department']} {item['position']}".lower()]
+    divisions = sorted({item["division"] for item in data["members"]})
+    return render_template(
+        "directory.html", members=members, divisions=divisions,
+        organizations=data["organizations"], source=data["source"],
+        retrieved_at=data["retrieved_at"], filters={"q": request.args.get("q", ""), "division": division},
+    )
 
 
 @app.get("/api/employees/<int:employee_id>")

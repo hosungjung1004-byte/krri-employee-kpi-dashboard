@@ -35,8 +35,11 @@ python -m pip install --no-index --find-links="..\폐쇄망설치패키지\packa
 - 성과등급 분포, 본부별 평균, 우선 코칭 대상 분석
 - 직원 등록·보관 및 KPI 현황 CSV 내보내기
 - SQLite(`kpi.db`) 영구 저장
+- 공식 홈페이지 기반 조직·구성원 디렉터리(평가 데이터와 분리)
 
 초기 실행 시 시연용 직원과 KPI 데이터가 자동 생성됩니다. 실제 운영 전 접근 권한, 사용자 인증, 백업 정책을 기관 기준에 맞게 추가하세요.
+
+공개 조직·구성원 정보를 다시 동기화하려면 `python -m pip install -r requirements-sync.txt` 후 `python sync_krri_directory.py`를 실행합니다. 전화번호와 이메일은 수집하지 않습니다.
 
 ## Vercel 배포 참고
 
