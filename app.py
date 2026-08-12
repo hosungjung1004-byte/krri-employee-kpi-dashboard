@@ -23,7 +23,7 @@ DB_PATH = Path(tempfile.gettempdir()) / "kpi.db" if IS_VERCEL else BASE_DIR / "k
 app = Flask(__name__, static_folder="public", static_url_path="")
 app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY", secrets.token_hex(32))
 
-DEPARTMENTS = ["미래교통연구본부", "철도안전연구본부", "스마트전기신호본부", "교통환경연구본부", "경영지원본부"]
+DEPARTMENTS = ["미래교통연구본부", "철도안전연구본부", "전기신호본부", "교통환경연구본부", "경영지원본부"]
 QUARTERS = ["2026 Q1", "2026 Q2", "2026 Q3", "2026 Q4"]
 
 
@@ -67,10 +67,10 @@ def init_db() -> None:
         if conn.execute("SELECT COUNT(*) FROM employees").fetchone()[0] == 0:
             employees = [
                 ("K26001", "이정우", "미래교통연구본부", "책임연구원", "jwlee@krri.re.kr", "2015-03-02"),
-                ("K26002", "박서연", "스마트전기신호본부", "선임연구원", "sypark@krri.re.kr", "2018-07-16"),
+                ("K26002", "박서연", "전기신호본부", "선임연구원", "sypark@krri.re.kr", "2018-07-16"),
                 ("K26003", "최민석", "미래교통연구본부", "수석연구원", "mschoi@krri.re.kr", "2012-01-09"),
                 ("K26004", "한지훈", "교통환경연구본부", "선임연구원", "jhhan@krri.re.kr", "2019-05-20"),
-                ("K26005", "윤하늘", "스마트전기신호본부", "책임연구원", "hnyoon@krri.re.kr", "2016-09-01"),
+                ("K26005", "윤하늘", "전기신호본부", "책임연구원", "hnyoon@krri.re.kr", "2016-09-01"),
                 ("K26006", "김태윤", "철도안전연구본부", "책임연구원", "tykim@krri.re.kr", "2014-02-17"),
                 ("K26007", "서은지", "교통환경연구본부", "연구원", "ejseo@krri.re.kr", "2022-11-07"),
                 ("K26008", "오세진", "경영지원본부", "선임행정원", "sjo@krri.re.kr", "2017-04-03"),
