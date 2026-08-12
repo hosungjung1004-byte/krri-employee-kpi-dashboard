@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="KRRI 직원 KPI 관리 대시보드">
   <title>KRRI · People Performance</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
   <aside class="sidebar" id="sidebar">
@@ -105,6 +105,6 @@
   <div class="drawer-backdrop" id="drawerBackdrop"></div><aside class="drawer" id="employeeDrawer"><button class="drawer-close">×</button><div id="drawerContent"><div class="loader"></div></div></aside>
   <div class="toast" id="toast"></div>
   <script>window.APP_CONFIG={quarter:{{ filters.quarter|tojson }}};</script>
-  <script src="{{ url_for('static', filename='app.js') }}"></script>
+  <script src="/app.js"></script>
 </body>
 </html>

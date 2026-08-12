@@ -7,3 +7,4 @@ venv/
 kpi.db
 .DS_Store
 Thumbs.db
+.vercel/

@@ -7,6 +7,7 @@ import io
 import os
 import secrets
 import sqlite3
+import tempfile
 import threading
 import webbrowser
 from datetime import date
@@ -16,9 +17,10 @@ from flask import Flask, Response, flash, jsonify, redirect, render_template, re
 
 
 BASE_DIR = Path(__file__).resolve().parent
-DB_PATH = BASE_DIR / "kpi.db"
+IS_VERCEL = bool(os.environ.get("VERCEL"))
+DB_PATH = Path(tempfile.gettempdir()) / "kpi.db" if IS_VERCEL else BASE_DIR / "kpi.db"
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="public", static_url_path="")
 app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY", secrets.token_hex(32))
 
 DEPARTMENTS = ["미래교통연구본부", "철도안전연구본부", "스마트전기신호본부", "교통환경연구본부", "경영지원본부"]

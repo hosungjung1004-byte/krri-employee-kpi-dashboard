@@ -1,0 +1,7 @@
+kpi.db
+*.log
+__pycache__/
+.git/
+.env
+preview.png
+실행.bat
